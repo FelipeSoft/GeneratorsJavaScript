@@ -1,0 +1,38 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: royalblue;
+}
+#password{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    height: 400px;
+    width: 400px;
+}
+
+.container button{
+    padding: 9px 27px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
